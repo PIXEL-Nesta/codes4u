@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Free Google Play Redeem Codes — Daily Codes 4 You, Generator</title>
+  <meta name="description" content="Blogger-ready single file: daily Google Play code list (16 chars), generator, FAQs, and 1000-keyword cloud. All client-side, mobile-first." />
+  <meta name="robots" content="index,follow" />
+  <style>
+    :root{
+      --gp-bg:#0f172a; --gp-panel:#111827; --gp-soft:#1f2937; --gp-muted:#94a3b8;
+      --gp-text:#e5e7eb; --gp-brand:#22c55e; --gp-accent:#f59e0b; --gp-copy:#16a34a;
+      --gp-line:#1e293b;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--gp-bg);color:var(--gp-text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
+    a{color:var(--gp-brand);text-decoration:none}
+    .gp-container{max-width:1100px;margin:auto;padding:20px}
+    .gp-header{display:flex;gap:16px;align-items:center;justify-content:space-between;background:#0b1229;position:sticky;top:0;z-index:10;padding:10px 20px;border-bottom:1px solid var(--gp-line)}
+    .gp-logo{font-weight:800;font-size:1.05rem;display:flex;align-items:center;gap:10px}
+    .gp-search{display:flex;gap:8px;align-items:center}
+    .gp-search input{padding:10px;border-radius:10px;border:1px solid var(--gp-line);background:#1e293b;color:#fff;width:220px;max-width:56vw}
+    .gp-search button{padding:10px 14px;border-radius:10px;background:var(--gp-brand);border:0;cursor:pointer}
+    .gp-grid{display:grid;grid-template-columns:1.2fr 0.8fr;gap:20px}
+    @media (max-width:960px){.gp-grid{grid-template-columns:1fr}}
+    .gp-card{background:var(--gp-panel);border:1px solid var(--gp-line);border-radius:14px;padding:16px}
+    .gp-muted{color:var(--gp-muted)}
+    .gp-badge{display:inline-block;background:#0f1b34;border:1px solid #213459;color:#cfe;padding:4px 10px;border-radius:999px;font-size:12px;margin-right:6px}
+    .gp-codes{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+    .gp-code{display:block;background:#0a1327;border:1px dashed #334155;color:#cce7ff;padding:10px;border-radius:8px;font-family:ui-monospace,Menlo,Consolas,monospace;text-align:center}
+    .gp-btn{background:var(--gp-brand);border:0;color:#062b1b;padding:10px 14px;margin:6px 6px 0 0;border-radius:10px;cursor:pointer}
+    .gp-btn.secondary{background:#1e293b;color:#fff}
+    .gp-btn.copy{background:var(--gp-copy);color:#fff}
+    .gp-keywords{display:flex;flex-wrap:wrap;gap:8px}
+    .gp-kw{background:#1e293b;color:#a8b2d1;padding:6px 10px;border-radius:999px;font-size:13px}
+    .gp-footer{margin-top:20px;font-size:14px;color:#9aa;text-align:center}
+    .gp-hr{border:none;border-top:1px solid var(--gp-line);margin:24px 0}
+    .gp-note{background:#220b0b;border:1px solid #3b1111;color:#f7c6c6;padding:10px;border-radius:10px}
+    .gp-list{padding-left:18px}
+  </style>
+</head>
+<body>
+  <header class="gp-header gp-container" role="banner">
+    <div class="gp-logo"><img width="100px" src="ChatGPT Image Aug 19, 2025, 09_00_01 AM (1).png" alt=""> <span>Google Play Redeem Codes by Codes 4 You</span></div>
+    <div class="gp-search" role="search">
+      <input id="gp-searchBox" type="search" placeholder="Search keywords…" aria-label="Search keywords" />
+      <button id="gp-searchBtn" type="button" class="gp-btn">Search</button>
+    </div>
+  </header>
+
+  <main class="gp-container" role="main">
+    <section class="gp-grid">
+      <article class="gp-card" aria-labelledby="gp-title">
+        <h1 id="gp-title">Free Google Play Redeem Codes — <span id="gp-todayDate"></span></h1>
+        <p class="gp-muted">
+          These are todas new codes. Only first users can redeem these codes.<b> Don't worry if ou don't get any redeem code come daily morning on 10:00 AM.</b>
+          <span class="gp-badge">Mobile-friendly</span>
+          <span class="gp-badge">Blogger-ready</span>
+          <span class="gp-badge">SEO keywords visible</span>
+        </p>
+
+        <h2 id="gp-today">Today’s Codes</h2>
+        <div id="gp-codesToday" class="gp-codes" aria-live="polite"></div>
+        <div>
+          <button id="gp-regen" type="button" class="gp-btn">Refresh List</button>
+          <button id="gp-copyAll" type="button" class="gp-btn secondary">Copy All</button>
+        </div>
+
+        <hr class="gp-hr" />
+
+        <h2 id="gp-gen">Random Code Generator</h2>
+        <p class="gp-muted">At hare you get the redeem code according to your <b>Destiny.</b></p>
+        <code id="gp-genOut" class="gp-code" aria-live="polite">XXXX-XXXX-XXXX-XXXX</code>
+        <div>
+          <button id="gp-genBtn" type="button" class="gp-btn">Generate</button>
+          <button id="gp-copyGen" type="button" class="gp-btn copy">Copy</button>
+        </div>
+
+        <hr class="gp-hr" />
+
+        <h2>How to Redeem ?</h2>
+        <ol class="gp-list">
+          <li>Open <b>Google Play Store</b> → Profile → <i>Payments & subscriptions</i> → <b>Redeem code</b>.</li>
+          <li>Enter the code and confirm. Double-check O/0 and I/1 characters.</li>
+        </ol>
+        <p class="gp-note"><b>Disclaimer:</b> This page shows codes for educational perposen only. We sell or provide free working/paid codes.</p>
+
+        <hr class="gp-hr" />
+
+        <h2>1000 Keywords</h2>
+        <p class="gp-muted">Visible long-tail keywords (no cloaking). Use search to filter.</p>
+        <div id="gp-keywordCloud" class="gp-keywords"></div>
+        <div>
+          <button id="gp-showMore" type="button" class="gp-btn secondary">Show 100 more</button>
+          <span id="gp-kwCount" class="gp-muted" style="margin-left:8px">0/1000 shown</span>
+        </div>
+      </article>
+
+      <aside class="gp-card" aria-label="Tips">
+        <h3>Quick Tips</h3>
+        <ul class="gp-list">
+          <li>Come daily on 10:00 AM for <b>new letest redeem codes</b>.</li>
+          <li>You get your code by your Destiny.</li>
+          <li>Keep trying to redeem codes.</li>
+          <li>If you don't get any redeem codes.</li>
+          <li>Reasons : -</li>
+          <li>--Other users have already redeemed the codes.</li>
+          <li>--Technical issue.</li>
+        </ul>
+      </aside>
+    </section>
+
+    <footer class="gp-footer">© <span id="gp-thisYear"></span> Your Blog Name. Not affiliated with Google.</footer>
+  </main>
+
+  <script>
+  (function(){
+    'use strict';
+
+    // ---------- helpers ----------
+    function qs(sel, ctx){ return (ctx||document).querySelector(sel); }
+    function qsa(sel, ctx){ return (ctx||document).querySelectorAll(sel); }
+
+    function safeCopy(text){
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        return navigator.clipboard.writeText(text);
+      }
+      // Fallback
+      return new Promise(function(resolve,reject){
+        try{
+          var ta=document.createElement('textarea');
+          ta.value=text;
+          ta.style.position='fixed'; ta.style.top='-1000px';
+          document.body.appendChild(ta);
+          ta.focus(); ta.select();
+          var ok=document.execCommand('copy');
+          document.body.removeChild(ta);
+          ok ? resolve() : reject(new Error('execCommand failed'));
+        }catch(e){ reject(e); }
+      });
+    }
+
+    // ---------- dates ----------
+    var now = new Date();
+    var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+    function pad(n){ return n<10 ? '0'+n : ''+n; }
+
+    // Place after DOM ready (script already at end, but be safe)
+    document.addEventListener('DOMContentLoaded', function(){
+      var todayEl = qs('#gp-todayDate');
+      if (todayEl) todayEl.textContent = months[now.getMonth()] + ' ' + now.getDate() + ', ' + now.getFullYear();
+      var monthEl = qs('#gp-month'); if (monthEl) monthEl.textContent = months[now.getMonth()];
+      var yearEl = qs('#gp-year'); if (yearEl) yearEl.textContent = now.getFullYear();
+      var thisYearEl = qs('#gp-thisYear'); if (thisYearEl) thisYearEl.textContent = now.getFullYear();
+
+      // ---------- code generation (16 chars: XXXX-XXXX-XXXX-XXXX) ----------
+      var charset = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+      function randFrom(n){
+        var out=''; for(var i=0;i<n;i++){ out += charset.charAt(Math.floor(Math.random()*charset.length)); }
+        return out;
+      }
+      function makeCode16(){
+        return randFrom(4) + '-' + randFrom(4) + '-' + randFrom(4) + '-' + randFrom(4);
+      }
+
+      function renderTodayCodes(){
+        var box = qs('#gp-codesToday');
+        if(!box) return;
+        box.innerHTML = '';
+        for(var i=0;i<12;i++){
+          var d = document.createElement('div');
+          d.className = 'gp-code';
+          d.textContent = makeCode16();
+          box.appendChild(d);
+        }
+      }
+      renderTodayCodes();
+
+      var regen = qs('#gp-regen');
+      if (regen) regen.addEventListener('click', renderTodayCodes);
+
+      var copyAll = qs('#gp-copyAll');
+      if (copyAll) copyAll.addEventListener('click', function(){
+        var codes = qsa('#gp-codesToday .gp-code');
+        var list = [];
+        for (var i=0;i<codes.length;i++){ list.push(codes[i].textContent); }
+        safeCopy(list.join('\n')).then(function(){ alert('Copied all codes!'); })
+          .catch(function(){ alert('Copy failed. Select and copy manually.'); });
+      });
+
+      var genOut = qs('#gp-genOut');
+      var genBtn = qs('#gp-genBtn');
+      if (genBtn && genOut) genBtn.addEventListener('click', function(){ genOut.textContent = makeCode16(); });
+      var copyGen = qs('#gp-copyGen');
+      if (copyGen && genOut) copyGen.addEventListener('click', function(){
+        safeCopy(genOut.textContent).then(function(){ alert('Copied!'); })
+          .catch(function(){ alert('Copy failed.'); });
+      });
+
+      // ---------- 1000 keyword cloud (deterministic, no randomness needed) ----------
+      var base = [
+        'google play redeem code','google play gift card codes','play store redeem code',
+        'google play credits','google play promo code','google play coupon','google play voucher'
+      ];
+      var intents = ['free','today','unused','working','generator','list','2025','no survey','guide','method','tips','tricks','faq','instant','legit'];
+      var geos = ['india','usa','uk','canada','brazil','philippines','indonesia','mexico','germany','france','spain','turkey','vietnam','nigeria','south africa','australia','pakistan','bangladesh','russia','italy'];
+      var amounts = ['1','2','3','5','10','15','20','25','30','50','75','100'];
+      var extras = ['how to redeem','without app','proof','earn points','for gamers','for students','apk','app','redeem instantly','no human verification'];
+
+      // Build unique set up to 1000
+      var set = Object.create(null);
+      function addKW(s){ if(!set[s]) set[s]=true; }
+
+      // seed combinations
+      for (var b=0;b<base.length;b++){
+        for (var i=0;i<intents.length;i++) addKW(base[b] + ' ' + intents[i]);
+        for (var g=0;g<geos.length;g++) addKW(base[b] + ' ' + geos[g]);
+        for (var a=0;a<amounts.length;a++) addKW(base[b] + ' ' + amounts[a] + ' dollar');
+        for (var e=0;e<extras.length;e++) addKW(base[b] + ' ' + extras[e]);
+      }
+      // deeper combos
+      outer:
+      for (var b2=0;b2<base.length;b2++){
+        for (var g2=0;g2<geos.length;g2++){
+          for (var i2=0;i2<intents.length;i2++){
+            for (var a2=0;a2<amounts.length;a2++){
+              addKW(base[b2] + ' ' + intents[i2] + ' ' + amounts[a2] + ' dollar ' + geos[g2]);
+              if (Object.keys(set).length >= 1200) break outer;
+            }
+          }
+        }
+      }
+      var allKeywords = Object.keys(set).slice(0,1000);
+
+      function renderKeywords(reset){
+        var cloud = qs('#gp-keywordCloud'); if(!cloud) return;
+        var countEl = qs('#gp-kwCount');
+        var btn = qs('#gp-showMore');
+        if (reset){ cloud.innerHTML=''; cloud.setAttribute('data-shown','0'); if(btn){ btn.disabled=false; btn.textContent='Show 100 more'; } }
+        var shown = parseInt(cloud.getAttribute('data-shown')||'0',10);
+        var end = Math.min(shown+100, allKeywords.length);
+        for (var k=shown; k<end; k++){
+          var span = document.createElement('span');
+          span.className = 'gp-kw';
+          // Title case first letters
+          span.textContent = allKeywords[k].replace(/\b\w/g,function(c){return c.toUpperCase();});
+          cloud.appendChild(span);
+        }
+        cloud.setAttribute('data-shown', String(end));
+        if (countEl) countEl.textContent = end + '/' + allKeywords.length + ' shown';
+        if (btn && end >= allKeywords.length){ btn.disabled = true; btn.textContent = 'All keywords shown'; }
+      }
+      renderKeywords(true);
+
+      var showMore = qs('#gp-showMore');
+      if (showMore) showMore.addEventListener('click', function(){ renderKeywords(false); });
+
+      // ---------- keyword search ----------
+      var searchBtn = qs('#gp-searchBtn');
+      var searchBox = qs('#gp-searchBox');
+      if (searchBtn && searchBox){
+        function doSearch(){
+          var q = (searchBox.value||'').toLowerCase();
+          var tags = qsa('#gp-keywordCloud .gp-kw');
+          var visible = 0;
+          for (var t=0;t<tags.length;t++){
+            var show = !q || tags[t].textContent.toLowerCase().indexOf(q) !== -1;
+            tags[t].style.display = show ? 'inline-flex' : 'none';
+            if (show) visible++;
+          }
+          var countEl = qs('#gp-kwCount');
+          if (countEl) countEl.textContent = visible + '/' + allKeywords.length + ' matched';
+        }
+        searchBtn.addEventListener('click', doSearch);
+        searchBox.addEventListener('keydown', function(e){ if(e.key==='Enter'){ doSearch(); } });
+      }
+    });
+  })();
+  </script>
+</body>
+</html>
